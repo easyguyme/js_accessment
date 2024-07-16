@@ -12,7 +12,6 @@ export default defineConfig({
                 'resources/frontend/sass/app.scss',
                 'resources/frontend/app.css',
                 'resources/frontend/public.css',
-                'resources/backend/app.css',
                 'resources/frontend/js/app.js',
                 'resources/frontend/js/public.js',
             ],
