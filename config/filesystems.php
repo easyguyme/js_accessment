@@ -56,6 +56,13 @@ return [
             'throw' => false,
         ],
 
+        'vercel' => [
+            'driver' => 'vercel',
+            'root' => storage_path('app/public'),
+            'url' => env('VERCEL_URL', 'https://jobshine.vercel.app'),
+            'visibility' => 'public',
+        ],
+
     ],
 
     /*

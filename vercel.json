@@ -1,0 +1,33 @@
+{
+    "version": 2,
+
+    "framework": null,
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+    },
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "/api/index.php"
+    }],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://jobshine.vercel.app/",
+        "ASSET_URL":"https://jobshine.vercel.app/",
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+        "DB_CONNECTION":"pgsql",
+        "DB_HOST":"dpg-cqargcaj1k6c73ag8bp0-a.oregon-postgres.render.com",
+        "DB_PORT":"5432",
+        "DB_DATABASE":"jobshine",
+        "DB_USERNAME":"jobshine_user",
+        "DB_PASSWORD":"vELchIN7zmIiNqvR2HGS3HSxFudI5e2X",
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie"
+    }
+}
